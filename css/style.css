@@ -1,0 +1,72 @@
+.header{
+  padding: 20px;
+  background-color: #0080ff;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.word{
+  font-size: 70px;
+  text-align: center;
+  padding: 20px;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.TypingBoxContainer{
+  padding-bottom: 20px;
+}
+
+.TypingBox{
+  padding: 10px;
+  width: 300px;
+  border: solid gray;
+}
+
+.GameInfo{
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+}
+
+.time{
+  font-size: 30px;
+}
+
+.score{
+  font-size: 30px;
+}
+
+.GameStart{
+  padding: 30px;
+}
+
+#toast {
+    position: fixed;
+    top: 2%;
+    left: 20%;
+    padding: 15px 20px;
+    transform: translate(-50%, 10px);
+    border-radius: 30px;
+    overflow: hidden;
+    font-size: .8rem;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .5s, visibility .5s, transform .5s;
+    background: rgba(0, 0, 0, .35);
+    color: #fff;
+    z-index: 10000;
+}
+
+#toast.reveal {
+    opacity: 1;
+    visibility: visible;
+    transform: translate(-50%, 0)
+}
