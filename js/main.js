@@ -3,7 +3,7 @@ const answer = document.querySelector('.word');
 const scoreDisplay = document.querySelector('.score');
 const timeDisplay = document.querySelector('.time');
 const buttonDisplay = document.querySelector('#Button-Start');
-const GAMETIME = 15;
+const GAMETIME = 7;
 const CNGTIME = 10;
 
 let score = 0;
